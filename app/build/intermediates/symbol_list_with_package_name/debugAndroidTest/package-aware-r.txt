@@ -1,0 +1,3 @@
+uz.gita.a5.medica.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

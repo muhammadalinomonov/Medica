@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeScreen">
+
+
+    <fragment
+        tools:layout="@layout/screen_home"
+        android:id="@+id/homeScreen"
+        android:name="uz.gita.medica.presentation.screen.home.HomeScreen"
+        android:label="HomeScreen" >
+        <action
+            android:id="@+id/action_homeScreen_to_favouriteScreen"
+            app:destination="@id/favouriteScreen" />
+        <action
+            android:id="@+id/action_homeScreen_to_notificationScreen"
+            app:destination="@id/notificationScreen" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_favourite"
+        android:id="@+id/favouriteScreen"
+        android:name="uz.gita.medica.presentation.screen.favourite.FavouriteScreen"
+        android:label="FavouriteScreen" />
+    <fragment
+        tools:layout="@layout/item_notification"
+        android:id="@+id/notificationScreen"
+        android:name="uz.gita.medica.presentation.screen.notification.NotificationScreen"
+        android:label="NotificationScreen" />
+</navigation>

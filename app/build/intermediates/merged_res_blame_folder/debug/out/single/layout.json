@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/screen_splash.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/screen_splash.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/item_page.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/item_page.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/fragment_login.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/activity_main.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/activity_main.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/screen_favourite.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/screen_favourite.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/screen_first_page.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/screen_first_page.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/screen_pager.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/screen_pager.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/screen_profile.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/screen_profile.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/item_doctor.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/item_doctor.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/fragment_signin.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/fragment_signin.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/screen_home.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/screen_home.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/screen_main.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/screen_main.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/item_notification.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/item_notification.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/fragment_verify.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/fragment_verify.xml"
+    },
+    {
+        "merged": "uz.gita.a5.medica.app-mergeDebugResources-61:/layout/fragment_register.xml",
+        "source": "uz.gita.a5.medica.app-main-64:/layout/fragment_register.xml"
+    }
+]

@@ -10,14 +10,15 @@ import javax.inject.Inject
 
 class UseCaseImpl @Inject constructor(
     private val repository: HomeRepository
-): UseCase {
-    override fun getUserInfo(phone: String): Flow<Result<ProfileData>> = repository.getUserInfo(phone)
+) : UseCase {
+    override fun getUserInfo(phone: String): Flow<Result<ProfileData>> =
+        repository.getUserInfo(phone)
 
-    override suspend fun getDoctors(): Result<List<DoctorEntity>>  = repository.getDoctors()
+    override suspend fun getDoctors(): Result<List<DoctorEntity>> = repository.getDoctors()
 
     override fun getFavouriteDoctors(): List<DoctorEntity> = repository.getFavouriteDoctors()
 
     override fun clickedFavourite(id: Long) = repository.clickedFavourite(id)
-    override suspend fun getNews(): Result<List<NotifyData>>  = repository.getNews()
+    override suspend fun getNews(): Result<List<NotifyData>> = repository.getNews()
     override fun search(like: String): List<DoctorEntity> = repository.getLikeBooks(like)
 }
